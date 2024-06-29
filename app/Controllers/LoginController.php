@@ -52,7 +52,7 @@ class LoginController extends BaseController
         }
 
         $userData = [
-            'name' => $user['name'],
+            'nama' => $user['nama'],
             'email' => $user['email'],
             'logged_in' => TRUE
         ];

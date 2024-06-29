@@ -24,6 +24,7 @@ $routes->group('login', function($routes) {
 });
 
 $routes->get('/dashboard', 'Dashboard::index');
+$routes->get('/dashboard', 'Helm::index');
 
 //Route buat logout
 
